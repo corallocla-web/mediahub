@@ -23,6 +23,8 @@ Builds are **unsigned**: Windows (SmartScreen) and Android may ask for confirmat
 
 <p align="center"><img src="docs/screenshots/movies-series-home.png" width="85%" alt="Netflix-style movies and series"></p>
 
+<p align="center"><img src="docs/screenshots/series-detail.png" width="85%" alt="Series detail with seasons and episodes"></p>
+
 ## Features
 
 - **Two-pane Home**: channel list with logos on the left; on the right a mini player and the full guide of the selected channel.

@@ -23,6 +23,8 @@ Elenco delle ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWN
 
 <p align="center"><img src="docs/screenshots/movies-series-home.png" width="85%" alt="Film e serie in stile Netflix"></p>
 
+<p align="center"><img src="docs/screenshots/series-detail.png" width="85%" alt="Dettaglio serie con stagioni ed episodi"></p>
+
 ## Cosa fa
 
 - **Home a due metà**: lista canali con logo a sinistra; a destra miniplayer e guida completa del canale.
