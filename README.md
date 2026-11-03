@@ -1,62 +1,66 @@
 # MediaHub
 
-**Live TV, guida EPG, film e serie su ogni schermo.** Un'unica interfaccia per guardare la TV in diretta e i contenuti on demand
-da Enigma2 (OpenWebIF), Xtream Codes, liste M3U, HDHomeRun e Tvheadend: su Android TV, Windows e su un mini PC Linux (MediaHub OS).
+**Live TV, EPG, movies and series on every screen.** One interface for live TV and on-demand content from
+Enigma2 (OpenWebIF), Xtream Codes, M3U playlists, HDHomeRun and Tvheadend, on **Android TV**, **Windows** and any **x86 PC** (MediaHub OS).
 
-<p align="center"><img src="docs/screenshots/android-tv-home.png" width="85%" alt="Home di MediaHub su Android TV: lista canali a sinistra, miniplayer e guida a destra"></p>
+<p align="center"><img src="docs/screenshots/android-tv-home.png" width="85%" alt="MediaHub Home on Android TV: channel list on the left, mini player and full channel guide on the right"></p>
 
-> English summary: [README.en.md](README.en.md)
+> Italiano: [README.it.md](README.it.md)
 
-## Download
+## Downloads
 
-| Versione | File | Per chi |
+| Version | File | For |
 |---|---|---|
 | **Android TV** | [`MediaHub-TV-1.0.42-20261102-1612.apk`](https://drive.usercontent.google.com/download?id=1TN0Uw1AS1EWKMVSRY7jNqTF3KeeZ5NWG&export=download&confirm=t) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
-| **Windows (utente)** | [`MediaHub-Setup-1.0.0-20261102-1612.exe`](https://drive.usercontent.google.com/download?id=1Zk2tmvbUnvMJC6Mjlro7POexxPAkjGcY&export=download&confirm=t) | Installazione senza permessi di amministratore |
-| **Windows (macchina)** | [`MediaHub-1.0.0-20261102-1614.msi`](https://drive.usercontent.google.com/download?id=136wqsmQfj6beAsRjz1p9-IwCj1uYplzQ&export=download&confirm=t) | Pacchetto MSI per tutto il PC (richiede amministratore) |
-| **MediaHub OS (ISO)** | [`mediahub-os-20261102-1645.iso`](https://drive.usercontent.google.com/download?id=1kaO91YQxkLJ9oX0opV1UTpJc6ybqOl9C&export=download&confirm=t) | Mini PC / Compute Stick: parte direttamente in MediaHub a schermo intero (BIOS e UEFI) |
+| **Windows (per user)** | [`MediaHub-Setup-1.0.0-20261102-1612.exe`](https://drive.usercontent.google.com/download?id=1Zk2tmvbUnvMJC6Mjlro7POexxPAkjGcY&export=download&confirm=t) | Installs without administrator rights |
+| **Windows (per machine)** | [`MediaHub-1.0.0-20261102-1614.msi`](https://drive.usercontent.google.com/download?id=136wqsmQfj6beAsRjz1p9-IwCj1uYplzQ&export=download&confirm=t) | MSI package for the whole PC (needs administrator) |
+| **MediaHub OS (ISO)** | [`mediahub-os-20261102-1645.iso`](https://drive.usercontent.google.com/download?id=1kaO91YQxkLJ9oX0opV1UTpJc6ybqOl9C&export=download&confirm=t) | **Any x86 PC** (mini PCs, Compute Sticks, desktops, laptops, VMs): boots straight into MediaHub, full screen. BIOS and UEFI |
 
-Le build **non sono firmate**: Windows (SmartScreen) e Android possono chiedere una conferma all'installazione.
-Pagina con le ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md).
+The last 5 versions of each type are listed in [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md).
+Builds are **unsigned**: Windows (SmartScreen) and Android may ask for confirmation when installing.
 
-## Cosa fa
+## Screenshots
 
-- **Home a due metà**: lista canali con logo a sinistra; a destra miniplayer e guida completa del canale.
-  OK su un canale = anteprima, OK di nuovo = schermo intero.
-- **Più sorgenti e account**: Enigma2/OpenWebIF, Xtream Codes, M3U, HDHomeRun, Tvheadend; cambio rapido tra più account PVR dalla barra a sinistra.
-- **Guida EPG**: per canale, con cache su disco (XMLTV) per le sorgenti Xtream.
-- **Film e serie** (Xtream): catalogo in stile Netflix, "Continua a guardare", episodio successivo automatico.
-- **Radio, musica, foto, registrazioni e timer**.
-- **Telecomando dal telefono** (MediaHub OS): QR con F12, pannello `http://<ip>:8080/sistema`.
+<p align="center"><img src="docs/screenshots/movies-series-home.png" width="85%" alt="Netflix-style movies and series"></p>
 
-## Installazione
+## Features
+
+- **Two-pane Home**: channel list with logos on the left; on the right a mini player and the full guide of the selected channel.
+  OK on a channel = preview, OK again = full screen.
+- **Multiple sources and accounts**: Enigma2/OpenWebIF, Xtream Codes, M3U, HDHomeRun, Tvheadend; quick switch between PVR accounts from the left rail.
+- **EPG**: per-channel guide, with an on-disk XMLTV cache for Xtream sources.
+- **Movies and series** (Xtream): Netflix-style catalogue, Top 10, "Continue watching", automatic next episode.
+- **Radio, music, photos, recordings and timers.**
+- **Phone remote** (MediaHub OS): QR code with F12, control panel at `http://<ip>:8080/sistema`.
+
+## Installation
 
 ### Android TV
-1. Scarica l'APK sul PC o direttamente sulla TV (app *Downloader*), oppure copialo su una chiavetta USB.
-2. Abilita "Origini sconosciute" per l'app che usi per aprire il file.
-3. Installa. Da PC: `adb connect <ip-della-tv>` poi `adb install -r MediaHub-TV-*.apk`.
+1. Download the APK on a PC or directly on the TV (*Downloader* app), or copy it to a USB stick.
+2. Allow "unknown sources" for the app you use to open the file.
+3. Install. From a PC: `adb connect <tv-ip>` then `adb install -r MediaHub-TV-*.apk`.
 
 ### Windows
-- **.exe**: doppio clic, si installa per l'utente corrente in `%LOCALAPPDATA%\Programs\MediaHub`. Include VLC.
-- **.msi**: installazione per tutto il PC in `C:\Program Files\MediaHub` (amministratore). Aggiorna una versione già installata.
-- Parte in finestra; **F11** per lo schermo intero (o dalle Impostazioni).
+- **.exe**: double-click; installs for the current user in `%LOCALAPPDATA%\Programs\MediaHub`. VLC is bundled.
+- **.msi**: installs for the whole PC in `C:\Program Files\MediaHub` (administrator). Upgrades an existing install.
+- Starts in a window; press **F11** for full screen (or use Settings).
 
-### MediaHub OS (ISO)
-1. Scrivi l'ISO su una chiavetta USB (Rufus in modalità **DD**, oppure `dd`).
-2. Avvia il mini PC dalla chiavetta e segui l'installer.
-3. Al riavvio parte direttamente MediaHub a schermo intero.
+### MediaHub OS (ISO) - any x86 PC
+1. Write the ISO to a USB stick (Rufus in **DD mode**, or `dd`).
+2. Boot the PC from the stick (BIOS or UEFI) and follow the installer.
+3. After the reboot MediaHub starts by itself, full screen.
 
-Verifica il file con lo SHA256 indicato nella pagina di download.
+Check the download against the SHA256 shown on the download page.
 
-## Primo avvio
-Al primo avvio una procedura guidata chiede il tipo di sorgente e i dati di accesso (indirizzo, utente, password o URL della lista).
-Sulle versioni con QR puoi inserirli dal telefono. Altri account si aggiungono dalle Impostazioni.
+## First start
+A guided setup asks for the source type and the access data (address, user, password or playlist URL).
+Where a QR code is shown you can enter the data from your phone. More accounts can be added from Settings.
 
-## Problemi noti
-- **Guida Xtream vuota**: alcuni provider servono la guida XMLTV completa solo una volta e poi la limitano. MediaHub la salva su disco (validità 6 ore) e riusa l'ultima copia valida, ma serve almeno un download completo riuscito.
-- **Windows**: se VLC non è installato, usa quello incluso; il primo avvio è un po' più lento.
-- Le build Windows e MediaHub OS sono provate soprattutto in macchina virtuale: segnala qualsiasi problema.
+## Known issues
+- **Empty Xtream guide**: some providers serve the full XMLTV guide only once and then rate-limit it. MediaHub caches it on disk (valid for 6 hours) and reuses the last good copy, but at least one complete download must succeed.
+- **Windows**: if VLC is not installed the bundled one is used; the first start is a little slower.
+- The Windows and MediaHub OS builds were tested mostly in virtual machines: please report any problem.
 
-## Note
-MediaHub è un lettore: non include canali, liste o abbonamenti. Usalo solo con contenuti a cui hai diritto di accedere.
-Il codice sorgente non è pubblico.
+## Notes
+MediaHub is a player: it does not include channels, playlists or subscriptions. Use it only with content you are entitled to access.
+The source code is not public.
