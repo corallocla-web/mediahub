@@ -11,9 +11,9 @@ Enigma2 (OpenWebIF), Xtream Codes, M3U playlists, HDHomeRun and Tvheadend, on **
 
 | Version | File | For |
 |---|---|---|
-| **Android TV** | [`MediaHub-TV-1.0.43.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-TV-1.0.43.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
-| **Windows (per user)** | [`MediaHub-Setup-1.0.1.exe`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-Setup-1.0.1.exe) | Installs without administrator rights |
-| **Windows (per machine)** | [`MediaHub-1.0.1.msi`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-1.0.1.msi) | MSI package for the whole PC (needs administrator) |
+| **Android TV** | [`MediaHub-TV-1.0.44.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.44/MediaHub-TV-1.0.44.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
+| **Windows (per user)** | [`MediaHub-Setup-1.0.2.exe`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.44/MediaHub-Setup-1.0.2.exe) | Installs without administrator rights |
+| **Windows (per machine)** | [`MediaHub-1.0.2.msi`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.44/MediaHub-1.0.2.msi) | MSI package for the whole PC (needs administrator) |
 | **MediaHub OS (ISO)** | [`mediahub-os-20261102-1645.iso`](https://drive.usercontent.google.com/download?id=1kaO91YQxkLJ9oX0opV1UTpJc6ybqOl9C&export=download&confirm=t) | **Any x86 PC** (mini PCs, Compute Sticks, desktops, laptops, VMs): boots straight into MediaHub, full screen. BIOS and UEFI |
 
 The last 5 versions of each type are listed in [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md) and in [Releases](https://github.com/corallocla-web/mediahub/releases).
