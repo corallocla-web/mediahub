@@ -11,13 +11,13 @@ da Enigma2 (OpenWebIF), Xtream Codes, liste M3U, HDHomeRun e Tvheadend: su Andro
 
 | Versione | File | Per chi |
 |---|---|---|
-| **Android TV** | [`MediaHub-TV-1.0.42-20261102-1612.apk`](https://drive.usercontent.google.com/download?id=1TN0Uw1AS1EWKMVSRY7jNqTF3KeeZ5NWG&export=download&confirm=t) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
-| **Windows (utente)** | [`MediaHub-Setup-1.0.0-20261102-1612.exe`](https://drive.usercontent.google.com/download?id=1Zk2tmvbUnvMJC6Mjlro7POexxPAkjGcY&export=download&confirm=t) | Installazione senza permessi di amministratore |
-| **Windows (macchina)** | [`MediaHub-1.0.0-20261102-1614.msi`](https://drive.usercontent.google.com/download?id=136wqsmQfj6beAsRjz1p9-IwCj1uYplzQ&export=download&confirm=t) | Pacchetto MSI per tutto il PC (richiede amministratore) |
+| **Android TV** | [`MediaHub-TV-1.0.43.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-TV-1.0.43.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
+| **Windows (utente)** | [`MediaHub-Setup-1.0.1.exe`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-Setup-1.0.1.exe) | Installazione senza permessi di amministratore |
+| **Windows (macchina)** | [`MediaHub-1.0.1.msi`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.43/MediaHub-1.0.1.msi) | Pacchetto MSI per tutto il PC (richiede amministratore) |
 | **MediaHub OS (ISO)** | [`mediahub-os-20261102-1645.iso`](https://drive.usercontent.google.com/download?id=1kaO91YQxkLJ9oX0opV1UTpJc6ybqOl9C&export=download&confirm=t) | **Qualsiasi PC x86** (mini PC, Compute Stick, desktop, portatili, VM): parte direttamente in MediaHub a schermo intero. BIOS e UEFI |
 
 Le build **non sono firmate**: Windows (SmartScreen) e Android possono chiedere una conferma all'installazione.
-Elenco delle ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md).
+Elenco delle ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md) e nelle [Releases](https://github.com/corallocla-web/mediahub/releases).
 
 ## Screenshot
 
