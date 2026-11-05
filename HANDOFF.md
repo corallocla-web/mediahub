@@ -11,3 +11,5 @@
 - 4/11: release v1.0.47 pubblicata (Windows 1.0.5 + APK 1.0.46); le release precedenti restano. L'updater Android legge l'APK dall'ULTIMA release: allegare sempre l'APK.
 - 4/11: release v1.0.48 pubblicata (Windows 1.0.6 MSI x64 + APK 1.0.46); provata dall'utente.
 - 5/11: release v1.0.49 pubblicata (Windows 1.0.7 con fix preferenze/wizard + APK 1.0.46); README aggiornati. Non provata dall'utente.
+
+- 5/11: release v1.0.50 pubblicata (Android TV 1.0.48 / Windows 1.0.10). README con i nuovi link.
