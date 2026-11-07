@@ -14,3 +14,4 @@
 
 - 5/11: release v1.0.50 pubblicata (Android TV 1.0.48 / Windows 1.0.10). README con i nuovi link.
 - 6/11: release v1.0.51 pubblicata (Android TV 1.0.49 / Windows 1.0.11): wizard con QR Xtream + scelta categorie. README con i nuovi link.
+- 7/11: release v1.0.53 pubblicata (Android TV 1.0.51 / Windows 1.0.11): app piu' veloce, canali dopo OK sul bouquet, riconnessione automatica del live. README con i nuovi link.
