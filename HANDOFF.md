@@ -17,3 +17,4 @@
 - 7/11: release v1.0.53 pubblicata (Android TV 1.0.51 / Windows 1.0.11): app piu' veloce, canali dopo OK sul bouquet, riconnessione automatica del live. README con i nuovi link.
 - 8/11: release v1.0.54 pubblicata (Android TV 1.0.52 / Windows 1.0.12): niente salvaschermo, scorrimento bouquet in modalita' sposta, tastiera solo con OK in tutti i campi; Windows include anche le correzioni di velocita' del 7/11. README con i nuovi link.
 - 8/11 sera: release v1.0.55 (Android TV 1.0.53: pulsante "Cerca aggiornamenti" in Impostazioni; Windows 1.0.12 invariato). README con i nuovi link.
+- 8/11 notte: release v1.0.56 (Android TV 1.0.54: live robusto con VPN/canali instabili, riapertura automatica dopo blocco immagine e retry illimitato; Windows 1.0.12 invariato). README con i nuovi link.
