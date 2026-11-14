@@ -11,7 +11,7 @@ Enigma2 (OpenWebIF), Xtream Codes, M3U playlists, HDHomeRun and Tvheadend, on **
 
 | Version | File | For |
 |---|---|---|
-| **Android TV** | [`MediaHub-TV-1.0.54.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/MediaHub-TV-1.0.54.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
+| **Android TV** | [`MediaHub-TV-1.0.57.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.58/MediaHub-TV-1.0.57.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
 | **Windows (per user)** | [`MediaHub-Setup-1.0.12.exe`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/MediaHub-Setup-1.0.12.exe) | Installs without administrator rights |
 | **Windows (per machine)** | [`MediaHub-1.0.12.msi`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/MediaHub-1.0.12.msi) | MSI package for the whole PC (needs administrator) |
 | **MediaHub OS (ISO)** | [`mediahub-os-20261113-0905.iso`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/mediahub-os-20261113-0905.iso) | **Any x86 PC** (mini PCs, Compute Sticks, desktops, laptops, VMs): boots straight into MediaHub, full screen. BIOS and UEFI |
