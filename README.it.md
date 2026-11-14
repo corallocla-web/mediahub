@@ -3,7 +3,7 @@
 **Live TV, guida EPG, film e serie su ogni schermo.** Un'unica interfaccia per guardare la TV in diretta e i contenuti on demand
 da Enigma2 (OpenWebIF), Xtream Codes, liste M3U, HDHomeRun e Tvheadend: su Android TV, Windows e su qualsiasi PC x86 (MediaHub OS).
 
-<p align="center"><img src="docs/screenshots/android-tv-home.png" width="85%" alt="Home di MediaHub su Android TV: lista canali a sinistra, miniplayer e guida a destra"></p>
+<p align="center"><img src="docs/screenshots/android-tv-home.png" width="85%" alt="Home di MediaHub su Android TV: tile TV Live, Serie TV e Film, tre tile app personalizzabili, stato VPN e libreria personale"></p>
 
 > English: [README.md](README.md)
 
@@ -21,13 +21,20 @@ Elenco delle ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWN
 
 ## Screenshot
 
-<p align="center"><img src="docs/screenshots/movies-series-home.png" width="85%" alt="Film e serie in stile Netflix"></p>
+<p align="center"><img src="docs/screenshots/android-tv-settings.png" width="85%" alt="Hub Impostazioni: dispositivi, configurazione guidata, lingua, riproduzione, app della Home, VPN, speed test e altro"></p>
+
+<p align="center"><img src="docs/screenshots/android-tv-home-apps.png" width="42%" alt="App della Home: scegli quale app apre ciascuna delle tre tile piccole"> <img src="docs/screenshots/android-tv-language.png" width="42%" alt="Lingua: Sistema, Francais, English, Espanol, Italiano"></p>
+
+<p align="center"><img src="docs/screenshots/movies-series-home.png" width="85%" alt="Pagina serie TV in stile Netflix con titolo in evidenza e righe"></p>
+
+<p align="center"><img src="docs/screenshots/movies-catalogue.png" width="85%" alt="Catalogo film: aggiunti di recente e piu votati"></p>
 
 <p align="center"><img src="docs/screenshots/series-detail.png" width="85%" alt="Dettaglio serie con stagioni ed episodi"></p>
 
 ## Cosa fa
 
-- **Home a due metà**: lista canali con logo a sinistra; a destra miniplayer e guida completa del canale.
+- **Home**: tre tile grandi (TV Live, Serie TV, Film), tre tile piccole con le app che scegli (Impostazioni > App della Home; di serie Plex, Netflix e YouTube), stato VPN e libreria personale. Lingue: italiano, inglese, francese, spagnolo.
+- **TV Live a due metà**: lista canali con logo a sinistra; a destra miniplayer e guida completa del canale.
   OK su un canale = anteprima, OK di nuovo = schermo intero.
 - **Più sorgenti e account**: Enigma2/OpenWebIF, Xtream Codes, M3U, HDHomeRun, Tvheadend; cambio rapido tra più account PVR dalla barra a sinistra.
 - **Guida EPG**: per canale, con cache su disco (XMLTV) per le sorgenti Xtream.
