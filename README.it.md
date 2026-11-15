@@ -11,10 +11,10 @@ da Enigma2 (OpenWebIF), Xtream Codes, liste M3U, HDHomeRun e Tvheadend: su Andro
 
 | Versione | File | Per chi |
 |---|---|---|
-| **Android TV** | [`MediaHub-TV-1.0.61.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.62/MediaHub-TV-1.0.61.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
+| **Android TV** | [`MediaHub-TV-1.0.61.apk`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.63/MediaHub-TV-1.0.61.apk) | Android TV / Google TV (Sony, Nvidia Shield, Fire TV...) |
 | **Windows (utente)** | [`MediaHub-Setup-1.0.12.exe`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/MediaHub-Setup-1.0.12.exe) | Installazione senza permessi di amministratore |
 | **Windows (macchina)** | [`MediaHub-1.0.12.msi`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/MediaHub-1.0.12.msi) | Pacchetto MSI per tutto il PC (richiede amministratore) |
-| **MediaHub OS (ISO)** | [`mediahub-os-20261113-0905.iso`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.57/mediahub-os-20261113-0905.iso) | **Qualsiasi PC x86** (mini PC, Compute Stick, desktop, portatili, VM): parte direttamente in MediaHub a schermo intero. BIOS e UEFI |
+| **MediaHub OS (ISO)** | [`mediahub-os-20261115-0835.iso`](https://github.com/corallocla-web/mediahub/releases/download/v1.0.63/mediahub-os-20261115-0835.iso) | **Qualsiasi PC x86** (mini PC, Compute Stick, desktop, portatili, VM): parte direttamente in MediaHub a schermo intero. BIOS e UEFI |
 
 Le build **non sono firmate**: Windows (SmartScreen) e Android possono chiedere una conferma all'installazione.
 Elenco delle ultime 5 versioni di ogni tipo: vedi [`docs/DOWNLOAD.md`](docs/DOWNLOAD.md) e nelle [Releases](https://github.com/corallocla-web/mediahub/releases).
